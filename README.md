@@ -1,5 +1,5 @@
 # junos_showCountersCascade
-This script was intended to be used in a classic 3-tier Juniper DC (with L3 resident on core layer) but it should work also in other environment as long as the core ip inserted is where the L3 resides.
+This script was intended to be used in a classic 3-tier Juniper DC (with L3 resident on core layer) but it should work also in other environment as long as the core IP inserted is where the L3 resides.
 
 Given a target IP, makes a .txt report with all the interface errors in the path Core>target IP.  
 It doesn't show the errors of the interfaces pointing "upwards" since the script was built to dig towards the target IP, but it would be fairly easy to implement this feature since there are all the tools to do it.
